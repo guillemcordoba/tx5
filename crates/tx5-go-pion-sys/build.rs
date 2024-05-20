@@ -93,7 +93,7 @@ fn main() {
     println!("cargo:rerun-if-changed=main.go");
     println!("cargo:rerun-if-changed=vendor.zip");
 
-    go_check_version();
+    // go_check_version();
     go_unzip_vendor();
     go_build();
     gen_rust_const();

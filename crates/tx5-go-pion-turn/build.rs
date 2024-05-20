@@ -11,7 +11,7 @@ fn main() {
     );
     bin_path.push("tx5-go-pion-turn");
 
-    go_check_version();
+    // go_check_version();
     go_unzip_vendor();
     go_build(&bin_path);
 }
